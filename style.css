@@ -21,6 +21,20 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+h4 {
+  font-size: 42px;
+  padding-top: 5px;
+}
+
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
@@ -31,7 +45,7 @@ p {
 
 .hero {
   background: var(--background-color);
-  padding: 50px;
+  padding: 0px 50px 50px 50px;
 }
 
 .card {
@@ -61,13 +75,22 @@ p {
   padding-left: 20px;
 }
 
-h2 {
-  font-size: 64px;
+.about-section h1 {
+  font-size: 54px;
+  line-height: 80px;
 }
 
-h3 {
-  font-size: 24px;
-  opacity: 0.7;
+.about-section h2 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-section {
+  padding: 120px 60px;
+}
+
+.about-section-content {
+  margin: 30px;
 }
 
 .navigation-links {
@@ -100,6 +123,11 @@ h3 {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.banner-button {
+  display: block;
+  margin: 70px auto;
 }
 
 .about-paragraphs {
@@ -139,6 +167,8 @@ h3 {
 
   .hero img {
     min-height: 650px;
+    object-fit: cover;
+    overflow: hidden;
   }
 
   .hero p {
@@ -150,11 +180,36 @@ h3 {
     text-align: center;
   }
 
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+
+  .work-inquiry {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .work-inquiry img {
+    min-height: 250px;
+  }
+
   #contact {
     margin-bottom: 30px;
   }
   .email-link {
     font-size: 22px;
+  }
+}
+
+@media (max-width: 991px) {
+  .work-inquiry {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .work-inquiry img {
+    min-height: 250px;
   }
 }
 
