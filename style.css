@@ -43,6 +43,41 @@ p {
   line-height: 30px;
 }
 
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+}
+
+.container-fluid {
+  background: var(--background-color);
+}
+
+.logo {
+  max-height: 40px;
+}
+
 .hero {
   background: var(--background-color);
   padding: 0px 50px 50px 50px;
@@ -160,6 +195,10 @@ p {
 
   h2 {
     font-size: 42px;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 
   .hero {

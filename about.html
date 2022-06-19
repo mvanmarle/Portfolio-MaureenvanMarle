@@ -29,29 +29,36 @@
     <title>About Maureen van Marle</title>
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-lg bg-light">
+    <div class="container-fluid">
       <div class="container">
-        <a class="navbar-brand" href="#"> Maureen van Marle </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" href="index.html">Home</a>
-            <a class="nav-link" href="about.html">About me</a>
-            <a class="nav-link" href="about.html#contact">Contact me</a>
-          </div>
-        </div>
+        <nav class="d-flex justify-content-between">
+          <img
+            src="images/MvM-Logo.png"
+            alt="Logo Maureen van Marle"
+            class="img-fluid logo d-none d-md-block"
+          />
+          <img
+            src="images/Maureenvanmarle-logo-small.png"
+            alt="Logo small Maureen van Marle"
+            class="img-fluid logo d-block d-md-none"
+          />
+          <ul>
+            <li>
+              <a href="/index.html"> Home </a>
+            </li>
+            <li class="active">
+              <a href="/about.html"> About</a>
+            </li>
+            <li>
+              <a href="/work.html"> Work</a>
+            </li>
+            <li>
+              <a href="/contact.html"> Contact</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6 mb-3">
