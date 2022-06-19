@@ -2,6 +2,7 @@
   --primary-color: #80c3bc;
   --secondary-color: #0079cc;
   --background-color: #f5f9f9;
+  --button-hover-color: #fff2f0;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -37,7 +38,7 @@ h4 {
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
-  color: rgba(39, 33, 66, 0.7);
+  color: black;
   font-size: 16px;
   line-height: 30px;
 }
@@ -91,6 +92,11 @@ p {
   margin: 20px 0 0;
 }
 
+.content h6 {
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
 .content p {
   font-size: 14px;
 }
@@ -120,6 +126,7 @@ p {
   padding: 18px 30px;
   text-decoration: none;
   text-transform: capitalize;
+  transition: all 200ms ease-in-out;
 }
 
 .button-outline {
@@ -140,25 +147,9 @@ p {
   margin: 70px auto;
 }
 
-.about-paragraphs {
-  display: flex;
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  margin: 10px;
-}
-
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
+.primary-link:hover {
+  background-color: var(--button-hover-color);
+  color: var(--secondary-color);
 }
 
 @media (max-width: 900px) {
@@ -202,13 +193,6 @@ p {
 
   .work-inquiry img {
     min-height: 250px;
-  }
-
-  #contact {
-    margin-bottom: 30px;
-  }
-  .email-link {
-    font-size: 22px;
   }
 }
 
