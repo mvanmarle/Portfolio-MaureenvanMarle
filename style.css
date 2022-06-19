@@ -31,7 +31,7 @@ p {
 
 .hero {
   background: var(--background-color);
-  padding: 25px;
+  padding: 50px;
 }
 
 .card {
@@ -133,8 +133,16 @@ h3 {
     font-size: 42px;
   }
 
+  .hero {
+    padding: 25px;
+  }
+
   .hero img {
     min-height: 650px;
+  }
+
+  .hero p {
+    font-size: 28px;
   }
 
   .project-description {
