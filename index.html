@@ -23,7 +23,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -31,7 +31,7 @@
   <body>
     <nav
       class="navbar sticky-top navbar-expand-lg"
-      style="background-color: rgba(175, 209, 208, 0.2)"
+      style="background-color: #f5f9f9"
     >
       <div class="container">
         <a class="navbar-brand" href="#"> Maureen van Marle </a>
@@ -56,79 +56,100 @@
       </div>
     </nav>
     <div class="hero">
-      <p>👋 Hi I am</p>
-      <h1>Maureen van Marle</h1>
-      <h2>🇳🇱 Front-end developer, based in Bonaire and Europe</h2>
-      <div class="navigation-links mb-5">
-        <a href="about.html#contact" class="primary-link">Contact me</a>
-        <a href="about.html" class="about-link">About me</a>
+      <div class="card">
+        <img
+          src="images/Water.png"
+          class="card-img img-fluid"
+          alt="Image of water surface"
+        />
+        <div
+          class="card-img-overlay h-100 d-flex flex-column justify-content-end"
+        >
+          <p class="card-text">👋 Hi I am</p>
+          <h1 class="card-text m-0">Maureen van Marle</h1>
+          <h2 class="card-text">
+            🇳🇱 Front-end developer, based in Bonaire and Europe
+          </h2>
+          <div class="navigation-links">
+            <a href="about.html" class="primary-link">About me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="text-center m-5">
+      Featured projects from which my best are choicen to be shown
+    </p>
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col d-none d-md-block">
+          <img
+            src="images/Holiday-home.png"
+            alt="Holiday homes project website"
+            class="img-fluid rounded"
+          />
+        </div>
+        <div class="col-md-6">
+          <div class="project-description">
+            <h2 class="mb-3">Holiday homes</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+              omnis quam vel eos eveniet alias temporibus deserunt veritatis
+              minima fugiat explicabo eum dolore.
+            </p>
+            <div class="mt-5">
+              <a href="#" class="button-outline">View project details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-6">
+          <div class="project-description">
+            <h2 class="mb-3">Weather App</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+              omnis quam vel eos eveniet alias temporibus deserunt veritatis
+              minima fugiat explicabo eum dolore.
+            </p>
+            <div class="mt-5">
+              <a href="#" class="button-outline">View project details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col d-none d-md-block">
+          <img
+            src="images/Weather-1.png"
+            alt="Weather App project"
+            class="img-fluid rounded"
+          />
+        </div>
       </div>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col d-none d-md-block">
           <img
-            src="images/yoga.png"
-            alt="Yoga website"
+            src="images/Boat-rental.png"
+            alt="Boat rental project website"
             class="img-fluid rounded"
           />
         </div>
         <div class="col-md-6">
-          <h2 class="mb-3 text-left">Yoga app</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="mt-5">
-            <a href="#" class="primary-link">Launch Yoga app</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row mt-5 weather">
-        <div class="col-md-6">
-          <h2 class="mb-3 text-left">Weather app</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="mt-5">
-            <a href="#" class="primary-link">Launch Weather app</a>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <img
-            src="images/weather.png"
-            alt="Weather website"
-            class="img-fluid rounded"
-          />
-        </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row mt-5">
-        <div class="col-md-6">
-          <img
-            src="images/yogurt.png"
-            alt="Yogurt website"
-            class="img-fluid rounded"
-          />
-        </div>
-        <div class="col-md-6">
-          <h2 class="mb-3 text-left">Yogurt app</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <div class="mt-5 mb-5">
-            <a href="#" class="primary-link">Launch Yogurt app</a>
+          <div class="project-description">
+            <h2 class="mb-3">Boat rental</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quia, dignissimos nam ratione veniam quibusdam porro
+              omnis quam vel eos eveniet alias temporibus deserunt veritatis
+              minima fugiat explicabo eum dolore.
+            </p>
+            <div class="mt-5">
+              <a href="#" class="button-outline">View project details</a>
+            </div>
           </div>
         </div>
       </div>
