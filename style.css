@@ -130,18 +130,36 @@ nav li.active a {
 .content h6 {
   color: var(--primary-color);
   text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
 }
 
 .content p {
   font-size: 14px;
 }
 
+.content a {
+  text-decoration: none;
+  color: black;
+}
+
+.content a:hover {
+  color: var(--primary-color);
+}
+
 .content-container {
-  padding: 120px 60px;
+  padding: 60px 20px;
 }
 
 .content {
   margin: 30px;
+}
+
+.experience-container .experience {
+  border: 1px solid var(--button-hover-color);
+}
+
+.experience-container h3 {
+  font-size: 42px;
 }
 
 .navigation-links {
@@ -256,7 +274,7 @@ footer .social-links a:hover {
   }
 
   .work-inquiry {
-    margin-top: 40px;
+    margin-top: 120px;
     text-align: center;
   }
 
