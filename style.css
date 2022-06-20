@@ -210,6 +210,16 @@ footer {
   margin: 60px 0;
 }
 
+footer p a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+footer p a:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
 footer .email-link {
   text-decoration: none;
   color: black;
