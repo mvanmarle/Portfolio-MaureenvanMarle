@@ -163,6 +163,17 @@ nav li.active a {
   font-size: 42px;
 }
 
+.certificates li {
+  text-align: center;
+  border-bottom: 1px solid var(--button-hover-color);
+  padding-bottom: 5px;
+}
+
+ul.certificates {
+  list-style: none;
+  padding: 0;
+}
+
 .navigation-links {
   display: flex;
   justify-content: start;
