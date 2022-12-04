@@ -217,6 +217,15 @@ ul.certificates {
   color: var(--secondary-color);
 }
 
+.container ul {
+  margin: 20px auto;
+}
+
+.container li {
+  list-style: none;
+  padding: 10px;
+}
+
 footer {
   margin: 60px 0;
 }
