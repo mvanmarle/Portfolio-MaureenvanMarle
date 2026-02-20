@@ -340,6 +340,10 @@ footer .social-links a:hover {
   padding: 60px 20px;
 }
 
+.pricing-container .row.g-4 > [class*="col-"] {
+  display: flex;
+}
+
 .pricing-card {
   background: white;
   border-radius: 15px;
@@ -474,6 +478,42 @@ footer .social-links a:hover {
   color: white;
 }
 
+.pricing-card.featured {
+  border: 2px solid rgba(128, 195, 188, 0.5);
+  position: relative;
+}
+
+.pricing-badge {
+  position: absolute;
+  top: -12px;
+  right: 20px;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  z-index: 10;
+  white-space: nowrap;
+}
+
+.pricing-section-title {
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.pricing-note {
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 768px) {
   .pricing-card {
     margin-bottom: 30px;
@@ -485,5 +525,9 @@ footer .social-links a:hover {
   
   .pricing-title {
     font-size: 24px;
+  }
+  
+  .pricing-section-title {
+    font-size: 28px;
   }
 }
